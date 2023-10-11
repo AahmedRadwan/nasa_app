@@ -50,11 +50,81 @@ class S {
     return Localizations.of<S>(context, S);
   }
 
-  /// `hello`
+  /// `Nasa News`
   String get title {
     return Intl.message(
-      'hello',
+      'Nasa News',
       name: 'title',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Theme`
+  String get theme {
+    return Intl.message(
+      'Theme',
+      name: 'theme',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Light`
+  String get theme_light {
+    return Intl.message(
+      'Light',
+      name: 'theme_light',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Dark`
+  String get theme_dark {
+    return Intl.message(
+      'Dark',
+      name: 'theme_dark',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `lang`
+  String get lang {
+    return Intl.message(
+      'lang',
+      name: 'lang',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `ar`
+  String get lang_ar {
+    return Intl.message(
+      'ar',
+      name: 'lang_ar',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `en`
+  String get lang_en {
+    return Intl.message(
+      'en',
+      name: 'lang_en',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `News`
+  String get news_button {
+    return Intl.message(
+      'News',
+      name: 'news_button',
       desc: '',
       args: [],
     );

@@ -1,6 +1,7 @@
 // Example typography.dart file
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:sizer/sizer.dart';
 
 final textTheme = TextTheme(
   displayLarge: GoogleFonts.inter(
@@ -58,7 +59,7 @@ final textTheme = TextTheme(
   ),
   labelMedium: GoogleFonts.inter(
     fontWeight: FontWeight.w700,
-    fontSize: 12,
+    fontSize: 12.sp,
     height: 16 / 12,
   ),
   labelSmall: GoogleFonts.inter(

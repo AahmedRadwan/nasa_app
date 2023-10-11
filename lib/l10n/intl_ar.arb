@@ -1,3 +1,10 @@
 {
-  "title": "مرحبا"
+  "title": "أخبار ناسا",
+  "theme": "المظهر",
+  "theme_light": "فاتح",
+  "theme_dark": "داكن",
+  "lang": "اللغة",
+  "lang_ar": "عربي",
+  "lang_en": "إنجليزي",
+  "news_button": "أخبار"
 }

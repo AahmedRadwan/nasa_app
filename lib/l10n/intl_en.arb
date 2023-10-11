@@ -1,3 +1,10 @@
 {
-  "title": "hello"
+  "title": "Nasa News",
+  "theme": "Theme",
+  "theme_light": "Light",
+  "theme_dark": "Dark",
+  "lang": "lang",
+  "lang_ar": "ar",
+  "lang_en": "en",
+  "news_button": "News"
 }

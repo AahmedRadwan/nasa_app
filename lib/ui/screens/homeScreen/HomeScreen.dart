@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:nasa_app/utils/constants.dart';
+import 'package:sizer/sizer.dart';
 
 import '../../../generated/l10n.dart';
 import '../../widget/DarkMode/ToggleDarkMode.dart';
@@ -23,11 +24,14 @@ class HomeScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            ElevatedButton(
-              onPressed: () {
-                context.push(RouterConstant.newScreen);
-              },
-              child: const Text("Go to New Screen"),
+            SizedBox(
+              width: 60.w,
+              child: ElevatedButton(
+                onPressed: () {
+                  context.push(RouterConstant.newScreen);
+                },
+                child:  Text(S.of(context).news_button,style: Theme.of(context).textTheme.labelMedium,),
+              ),
             ),
           ],
         ),

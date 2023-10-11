@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
+import '../../../generated/l10n.dart';
 import '../../../utils/constants.dart';
 
 enum SampleItem { EN, AR }
@@ -24,13 +25,13 @@ class ToggleLocalizationMode extends StatelessWidget {
               },
               itemBuilder: (BuildContext context) =>
                   <PopupMenuEntry<SampleItem>>[
-                const PopupMenuItem<SampleItem>(
+                 PopupMenuItem<SampleItem>(
                   value: SampleItem.EN,
-                  child: Text('En'),
+                  child: Text(S.of(context).lang_en),
                 ),
-                const PopupMenuItem<SampleItem>(
+                 PopupMenuItem<SampleItem>(
                   value: SampleItem.AR,
-                  child: Text('Ar'),
+                  child: Text(S.of(context).lang_ar),
                 ),
               ],
             ),
